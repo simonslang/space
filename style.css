@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Futura PT light;
+	src: url("/fonts/Futura-PT-light.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+}
+
+#text {
+	font-family: Futura PT light;
+	text-align: center;
+	background-image: url(img.png);
+	background-position: center;
+	background-size: cover;
+	padding: 300px;
+	color: #fff;
+}
