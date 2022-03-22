@@ -19,76 +19,139 @@
 
 body {
 	background-color: black;
+	font-family: 'Sporting_Grotesque_Bold';
+	color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 
 }
 
 .container {
 	width: 1024px;
 	min-height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 	margin-left: auto;
     margin-right: auto;
 
 }
 
 header {
-	padding-top: 20px;
-    padding-bottom: 20px;
-	display: flex;
+	padding: 20px 20px;
     align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+	display: flex;
     justify-content: space-between;
 }
 
 .cards {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
 	align-content: stretch;
-	justify-content: space-evenly;
+	justify-content: flex-start;
+	align-content: flex-start;
 	align-items: stretch;
     text-align: left;
 }
 
 .card1 {
-	background-color: blueviolet;
+	background-color: blue;
 	background-size: cover;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 700px;
+	color: black;
+	border-style: solid;
+	border-width: 25px;
 }
 .card2 {
-	background-color: chartreuse;
+	background-color: crimson;
 	background-size: cover;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 700px;
+	color: black;
+	border-style: solid;
+	border-width: 25px;
 }
 .card3 {
-	background-color: darkgoldenrod;
+	background-color: dimgrey;
 	background-size: cover;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 700px;
+	color: black;
+	border-style: solid;
+	border-width: 25px;
 }
 .card4 {
-	background-color: firebrick;
+	background-color: fuchsia;
 	background-size: cover;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 700px;
+	color: black;
+	border-style: solid;
+	border-width: 25px;
 }
 .card5 {
-	background-color: darkslateblue;
+	background-color: gold;
 	background-size: cover;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 700px;
+	color: black;
+	border-style: solid;
+	border-width: 25px;
+}
+
+h1 {
+	font-size: 4rem;
 }
 
 h2{
-	font-size: 3rem;
-	font-family: 'Sporting_Grotesque_Bold';
+	font-size: 2.5rem;
+	font-family: 'Sporting_Grotesque_Regular';
+	background-color: black;
+	color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+    padding-right: 33px;
+	padding-bottom: 89px;
+}
+h3{
+	font-size: 1.5rem;
+	font-family: 'Sporting_Grotesque_Regular';
+	background-color: black;
+	color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+    padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 25px;
+	margin-right: 25px;
 }
 
-#text {
-	font-family: Futura PT light;
-	text-align: center;
-	background-image: url(img.png);
-	background-position: center;
-	background-size: cover;
-	padding: 300px;
-	color: #fff;
+nav a{
+    font-family: 'Sporting_Grotesque_Bold', serif;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 25px;
+}
+
+.navbutton {
+    display: inline-block;
+    position: relative;
+}
+.navbutton:hover {
+    background-color: rgb(255, 0, 0);
+    transition-duration: 0.3s;
 }
