@@ -16,6 +16,12 @@
 	font-weight: normal;
     font-style: normal;
 }
+@font-face {
+	font-family: 'Courier_New';
+	src: url("/fonts/courier_new.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	background-color: black;
@@ -37,18 +43,24 @@ a {
 	flex-direction: row;
 	margin-left: auto;
     margin-right: auto;
+	align-content: center;
 
 }
 
 header {
 	padding: 20px 20px;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.name {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
 }
 
 .nav {
 	display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .cards {
@@ -63,7 +75,7 @@ header {
 }
 
 .card1 {
-	background-color: blue;
+	background-image: linear-gradient(blue,black);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -72,7 +84,7 @@ header {
 	border-width: 25px;
 }
 .card2 {
-	background-color: crimson;
+	background-image: linear-gradient(red,black);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -81,7 +93,7 @@ header {
 	border-width: 25px;
 }
 .card3 {
-	background-color: dimgrey;
+	background-image: linear-gradient(rgb(255, 255, 0),black);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -90,7 +102,7 @@ header {
 	border-width: 25px;
 }
 .card4 {
-	background-color: fuchsia;
+	background-image: linear-gradient(rgb(255, 0, 212),black);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -99,7 +111,7 @@ header {
 	border-width: 25px;
 }
 .card5 {
-	background-color: yellow;
+	background-image: linear-gradient(rgb(255, 94, 0),black);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -114,7 +126,7 @@ h1 {
 
 h2{
 	font-size: 200%;
-	font-family: 'Sporting_Grotesque_Regular';
+	font-family: 'Courier_New';
 	background-color: black;
 	color: white;
     display: inline-block;
@@ -129,17 +141,7 @@ h2{
 }
 h3{
 	font-size: 100%;
-	font-family: 'Sporting_Grotesque_Regular';
-	background-color: black;
-	color: white;
-    display: inline-block;
-    border-style: solid;
-    border-width: 0px;
-    padding-left: 25px;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	margin-top: 25px;
-	margin-right: 25px;
+	margin-bottom: 20px;
 }
 
 nav a{
