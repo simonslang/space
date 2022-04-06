@@ -40,10 +40,12 @@ a {
 	min-height: 300px;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: column;
+	align-items: flex-start;
 	margin-left: auto;
     margin-right: auto;
 	align-content: center;
+	align-items: center;
 
 }
 
@@ -60,24 +62,30 @@ header {
 
 .nav {
 	display: flex;
-    justify-content: center;
 }
+
+.nav {
+	display: flex;
+	padding-top: 200px;
+    width: 230px;
+    z-index: 200;
+    position: fixed;
+  }
 
 .cards {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: column;
 	align-content: stretch;
 	justify-content: flex-start;
-	align-content: flex-start;
-	align-items: stretch;
+	align-items: center;
     text-align: left;
 }
 
 .card1 {
 	background-image: linear-gradient(blue,black);
 	background-size: cover;
-	width: 100%;
+	width: 500px;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -86,7 +94,7 @@ header {
 .card2 {
 	background-image: linear-gradient(red,black);
 	background-size: cover;
-	width: 100%;
+	width: 500px;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -95,7 +103,7 @@ header {
 .card3 {
 	background-image: linear-gradient(rgb(255, 255, 0),black);
 	background-size: cover;
-	width: 100%;
+	width: 500px;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -104,7 +112,7 @@ header {
 .card4 {
 	background-image: linear-gradient(rgb(255, 0, 212),black);
 	background-size: cover;
-	width: 100%;
+	width: 500px;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -113,7 +121,7 @@ header {
 .card5 {
 	background-image: linear-gradient(rgb(255, 94, 0),black);
 	background-size: cover;
-	width: 100%;
+	width: 500px;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -133,9 +141,10 @@ h2{
     border-style: solid;
     border-width: 0px;
     padding-right: 50px;
-	padding-bottom: 89px;
+	padding-bottom: 30px;
 	padding-left: 10px;
 	padding-top: 10px;
+	margin-right: 10px;
 	margin-left: 10px;
 	margin-top: 10px;
 }
@@ -150,12 +159,13 @@ nav a{
     display: inline-block;
     border-style: solid;
     border-width: 2px;
-    padding: 10px 25px;
+    padding: 10px 30px;
 }
 
 .navbutton {
     display: inline-block;
     position: relative;
+	margin-bottom: 25px;
 }
 .navbutton:hover {
     background-color: rgb(255, 0, 0);
