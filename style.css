@@ -36,8 +36,7 @@ a {
 }
 
 .container {
-	width: 1024px;
-	min-height: 300px;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -79,7 +78,7 @@ header {
 .card1 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), blue,rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -88,7 +87,7 @@ header {
 .card2 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), red,rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -96,7 +95,7 @@ header {
 .card3 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 255, 0),rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -104,7 +103,7 @@ header {
 .card4 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 0, 212),rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -112,7 +111,7 @@ header {
 .card5 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(255, 94, 0),rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -120,7 +119,7 @@ header {
 .card6 {
 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(157, 255, 0),rgba(0, 0, 0, 0));
 	background-size: cover;
-	width: 100%;
+	width: 80%;
 	height: 300px;
 	color: black;
 	border-style: solid;
@@ -145,13 +144,30 @@ h3{
 	font-size: 100%;
 	margin-bottom: 20px;
 }
+p {
+	font-size: 100%;
+	font-family: 'Courier_New';
+	padding:10px;
+	width: 60%;
+}
+
+.text{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+    text-align: left;
+	justify-content: center;
+
+}
 
 nav .navbutton{
     font-family: 'Sporting_Grotesque_Bold', serif;
     color: white;
     display: inline-block;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0px;
     padding: 10px 30px;
 }
 
