@@ -22,6 +22,12 @@
 	font-weight: normal;
     font-style: normal;
 }
+@font-face {
+	font-family: 'Garamond';
+	src: url("/fonts/CormorantGaramond-Regular.ttf") format('ttf');
+	font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
@@ -141,7 +147,7 @@ h1 {
 
 h2{
 	font-size: 200%;
-	font-family: 'Courier_New';
+	font-family: 'Garamond';
 	background-color: black;
 	color: white;
     display: inline-block;
@@ -156,7 +162,7 @@ h3{
 }
 p {
 	font-size: 100%;
-	font-family: 'Courier_New';
+	font-family: 'Garamond';
 	padding:10px;
 	width: 80%;
 }
