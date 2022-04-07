@@ -60,12 +60,25 @@ header {
 }
 
 .nav {
+	height: 200px;
 	display: flex;
-	padding-top: 50px;
-    width: 130px;
-    z-index: 100;
-    position: fixed;
-  }
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+}
+
+.navbutton{
+    font-family: 'Sporting_Grotesque_Bold', serif;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+	padding: 5px;
+	margin: 10px;
+	display: flex;
+}
 
 .cards {
 	display: flex;
@@ -162,21 +175,12 @@ p {
 
 }
 
-nav .navbutton{
-    font-family: 'Sporting_Grotesque_Bold', serif;
-    color: white;
-    display: inline-block;
-    border-style: solid;
-    border-width: 0px;
-    padding: 10px 30px;
-}
-
-.navbutton {
-    display: inline-block;
-    position: relative;
-	margin-bottom: 25px;
-}
 .navbutton:hover {
     background-color: rgb(255, 0, 0);
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+	background-color: rgb(255, 0, 0);
     transition-duration: 0.3s;
 }
