@@ -30,7 +30,7 @@
 }
 
 body {
-	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
@@ -54,13 +54,14 @@ header {
 }
 
 .nav {
-	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
-
 }
 
 .navbutton{
@@ -70,8 +71,8 @@ header {
     border-style: solid;
     border-width: 2px;
 	padding: 5px;
-	margin: 10px;
-	display: flex;
+	margin: 5px;
+	align-self: center;
 }
 
 .cards {
@@ -142,7 +143,7 @@ header {
 }
 
 h1 {
-	font-size: 400%;
+	font-size: 300%;
 }
 
 h2{
@@ -160,11 +161,17 @@ h3{
 	font-size: 100%;
 	margin-bottom: 20px;
 }
+
 p {
 	font-size: 120%;
 	font-family: 'Inconsolata', monospace;
 	padding:10px;
 	width: 90%;
+}
+
+.cards p {
+	background-color: black;
+	padding: 5px
 }
 
 .text{
