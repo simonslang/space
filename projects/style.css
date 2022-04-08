@@ -66,24 +66,31 @@ header {
 }
 
 .nav {
-	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
-	align-items: center;
-
 }
 
 .navbutton{
     font-family: 'Sporting_Grotesque_Bold', serif;
-    color: white;
+	background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: inline-block;
     border-style: solid;
     border-width: 2px;
-	padding: 5px;
-	margin: 10px;
-	display: flex;
+	border-radius: 10px;
+	box-shadow: 15px 15px rgb(229, 255, 0);
+	padding: 7px;
+	margin: 5px;
+	align-self: center;
+}
+.navbutton a {
+	color: rgb(255, 255, 255);
 }
 
 h1 {
