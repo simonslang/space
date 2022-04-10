@@ -67,12 +67,12 @@ header {
 .navbutton{
     font-family: 'Sporting_Grotesque_Bold', serif;
 	background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(143, 143, 143);
     display: inline-block;
     border-style: solid;
-    border-width: 2px;
-	border-radius: 10px;
-	box-shadow: 15px 15px rgb(229, 255, 0);
+    border-width: 0px;
+	border-radius: 20px;
+	box-shadow: 15px 15px rgb(217, 255, 0);
 	padding: 7px;
 	margin: 5px;
 	align-self: center;
@@ -99,7 +99,7 @@ header {
 	align-items: center;
 }
 .card2 {
-	background-image: linear-gradient(rgb(255,0,0), rgba(0,0,0,0));
+	background-image: linear-gradient(rgb(255, 0, 0), rgba(0,0,0,0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -115,7 +115,7 @@ header {
 	border-style: solid;
 }
 .card4 {
-	background-image: linear-gradient(rgb(255, 0, 212),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(248, 0, 103),rgba(0, 0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -123,7 +123,7 @@ header {
 	border-style: solid;
 }
 .card5 {
-	background-image: linear-gradient(rgb(255, 94, 0),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(0,255,0),rgba(0, 0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -131,7 +131,7 @@ header {
 	border-style: solid;
 }
 .card6 {
-	background-image: linear-gradient(rgb(157, 255, 0),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(0, 0, 255),rgba(0, 0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -140,7 +140,7 @@ header {
 }
 
 .card7 {
-	background-image: linear-gradient(rgb(98, 0, 255),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(255, 94, 0),rgba(0, 0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
