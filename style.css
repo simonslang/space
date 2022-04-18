@@ -210,6 +210,10 @@ p {
     width: 90%;
 }
 
+.text a{
+	color: yellow;
+}
+
 .img{
     width: 90%;
 }
