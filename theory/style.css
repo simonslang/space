@@ -1,0 +1,258 @@
+@font-face {
+	font-family: 'Futura PT light';
+	src: url("/fonts/Futura-PT-light.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Sporting_Grotesque_Regular';
+	src: url("/fonts/Sporting_Grotesque-Regular_web.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Sporting_Grotesque_Bold';
+	src: url("/fonts/Sporting_Grotesque-Bold_web.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Courier_New';
+	src: url("/fonts/courier_new.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Garamond';
+	src: url("/fonts/CormorantGaramond-Regular.ttf") format('ttf');
+	font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+	font-family: 'Sporting_Grotesque_Bold';
+	color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+	padding: 20px 20px;
+}
+
+.name {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.nav {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.navbutton{
+    font-family: 'Sporting_Grotesque_Bold', serif;
+	font-size: 80%;
+	background-color: rgb(0, 0, 0);
+    color: rgb(143, 143, 143);
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+	border-radius: 0px;
+	box-shadow: 3px 3px rgb(255, 255, 255);
+	padding: 7px;
+	padding-top: 10px;
+	margin: 5px;
+	align-self: center;
+}
+.navbutton a {
+	color: rgb(255, 255, 255);
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+    text-align: left;
+}
+
+.card1 {
+	background-image: linear-gradient(rgb(0,0,255), rgba(0,0,0,0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+	align-items: center;
+}
+.card2 {
+	background-image: linear-gradient(rgb(255, 0, 0), rgba(0,0,0,0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+.card3 {
+	background-image: linear-gradient(rgb(248, 0, 103),rgba(0, 0, 0, 0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+.card4 {
+	background-image: linear-gradient(rgb(255, 255, 0),rgba(0, 0, 0, 0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+.card5 {
+	background-image: linear-gradient(rgb(0,255,0),rgba(0, 0, 0, 0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+.card6 {
+	background-image: linear-gradient(rgb(0, 0, 255),rgba(0, 0, 0, 0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+
+.card7 {
+	background-image: linear-gradient(rgb(255, 94, 0),rgba(0, 0, 0, 0));
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	color: black;
+	border-style: solid;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2{
+	font-size: 200%;
+	font-family: 'Inconsolata', monospace;
+	background-color: black;
+	color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 0px;
+    padding: 5px;
+	margin-top: 50px;
+}
+h3{
+	font-size: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.header h3 {
+	color: rgb(156, 156, 156);
+
+}
+
+h4 {
+	font-size: 200%;
+	font-family: 'Inconsolata', monospace;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+p {
+	font-size: 120%;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 300;
+	width: 90%;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+
+
+h5 {
+	font-size: 120%;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 600;
+	width: 90%;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+
+.text p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cards p {
+	background-color: black;
+	padding: 5px
+}
+
+.content {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.text p {
+	width: 100%;
+}
+
+.text a{
+	color: yellow;
+}
+
+.img{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.navbutton:hover {
+    background-color: rgb(70, 70, 70);
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+	background-color: rgb(156, 156, 156);
+    transition-duration: 0.3s;
+}
