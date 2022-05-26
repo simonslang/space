@@ -42,7 +42,7 @@ a {
 }
 
 .container {
-	width: 1024px;
+	max-width: 1024px;
     min-height: 300px;
 	display: flex;
 	flex-wrap: wrap;
