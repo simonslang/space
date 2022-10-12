@@ -30,7 +30,7 @@
 }
 
 body {
-	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+	background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
