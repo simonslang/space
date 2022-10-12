@@ -30,7 +30,7 @@
 }
 
 body {
-	background-image: linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+	background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
@@ -98,7 +98,7 @@ header {
 }
 
 .card1 {
-	background-image: linear-gradient(rgb(0,0,255), rgba(0,0,0,0));
+	background-image: linear-gradient(rgb(0,0,255), rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -107,7 +107,7 @@ header {
 	align-items: center;
 }
 .card2 {
-	background-image: linear-gradient(rgb(255, 0, 0), rgba(0,0,0,0));
+	background-image: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -115,7 +115,7 @@ header {
 	border-style: solid;
 }
 .card3 {
-	background-image: linear-gradient(rgb(248, 0, 103),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(248, 0, 103),rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -123,7 +123,7 @@ header {
 	border-style: solid;
 }
 .card4 {
-	background-image: linear-gradient(rgb(255, 255, 0),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(255, 255, 0),rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -131,7 +131,7 @@ header {
 	border-style: solid;
 }
 .card5 {
-	background-image: linear-gradient(rgb(0,255,0),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(0,255,0),rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -139,7 +139,7 @@ header {
 	border-style: solid;
 }
 .card6 {
-	background-image: linear-gradient(rgb(0, 0, 255),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(0, 0, 255),rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -148,7 +148,7 @@ header {
 }
 
 .card7 {
-	background-image: linear-gradient(rgb(255, 94, 0),rgba(0, 0, 0, 0));
+	background-image: linear-gradient(rgb(255, 94, 0),rgb(0, 0, 0));
 	background-size: cover;
 	width: 100%;
 	height: 300px;
