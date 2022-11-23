@@ -30,7 +30,7 @@
 }
 
 body {
-	background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 255, 255));
+	background-color: rgb(11, 11, 11);
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
@@ -102,7 +102,7 @@ h1 {
 
 h2{
 	font-size: 200%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	background-color: black;
 	color: white;
     display: inline-block;
@@ -113,7 +113,7 @@ h2{
 }
 h3{
 	font-size: 120%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -125,20 +125,20 @@ h3{
 
 h4 {
 	font-size: 200%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
 p {
 	font-size: 120%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	padding-bottom:10px;
     padding-top: 10px;
 }
 p2 {
 	font-size: 100%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom:10px;
@@ -147,7 +147,7 @@ p2 {
 
 h5 {
 	font-size: 120%;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Garamond';
 	font-weight: 600;
 	width: 90%;
 	padding-bottom:10px;
