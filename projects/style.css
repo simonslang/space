@@ -24,7 +24,9 @@
 }
 
 body {
-	background-color: rgb(32, 32, 32);
+	background-image: url("img/background.png");
+	background-position: center;
+	background-size: cover;
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
