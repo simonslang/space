@@ -22,6 +22,12 @@
 	font-weight: normal;
     font-style: normal;
 }
+@font-face {
+	font-family: 'MetamorBit_TrialVF';
+	src: url("/fonts/MetamorBit_TrialVF.woff") format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	background-color: rgb(22, 22, 22);
@@ -139,9 +145,35 @@ p2 {
     padding-top: 10px;
 }
 
+p3 {
+	font-size: 120%;
+	font-family: 'MetamorBit_TrialVF', serif;
+	font-weight: 300;
+	width: 90%;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+
 h5 {
 	font-size: 120%;
 	font-family: 'Futura PT light', serif;
+	font-weight: 600;
+	width: 90%;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+
+h6 {
+	font-size: 200%;
+	font-family: 'MetamorBit_TrialVF', serif;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+h7 {
+	font-size: 120%;
+	font-family: 'MetamorBit_TrialVF', serif;
 	font-weight: 600;
 	width: 90%;
 	padding-bottom:10px;
