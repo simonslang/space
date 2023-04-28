@@ -43,8 +43,11 @@ body {
 }
 
 a {
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
+}
+.cards a {
+	color: white;
 }
 
 
@@ -221,7 +224,7 @@ h5 {
 }
 
 h6 {
-	font-size: 200%;
+	font-size: 100%;
 	font-family: 'MetamorBit_TrialVF', serif;
 	padding-top: 40px;
 	padding-bottom: 20px;
@@ -229,12 +232,13 @@ h6 {
 }
 
 h7 {
-	font-size: 120%;
+	font-size: 80%;
 	font-family: 'MetamorBit_TrialVF', serif;
 	font-weight: 600;
 	width: 90%;
 	padding-bottom:10px;
     padding-top: 10px;
+	color: rgb(214, 255, 58);
 }
 
 
