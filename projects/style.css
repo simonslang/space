@@ -137,10 +137,10 @@ p {
     padding-top: 10px;
 }
 p2 {
-	font-size: 100%;
+	font-size: 120%;
 	font-family: 'Futura PT light', serif;
-	padding-left: 10%;
-	padding-right: 10%;
+	text-align: left;
+	padding-left: 3%;
 	padding-bottom:10px;
     padding-top: 10px;
 }
