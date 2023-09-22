@@ -163,7 +163,7 @@ h1 {
 
 h2{
 	font-size: 200%;
-	font-family: 'Futura PT light', serif;
+	font-family: 'Courier New';
 	font-style: italic;
 	background-color: black;
 	color: white;
@@ -174,8 +174,8 @@ h2{
 	margin-top: 50px;
 }
 h3{
-	font-size: 120%;
-	font-family: 'Futura PT light', serif;
+	font-size: 75%;
+	font-family: 'Courier New';
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -188,7 +188,7 @@ h3{
 
 h4 {
 	font-size: 200%;
-	font-family: 'Futura PT light', serif;
+	font-family: 'Courier New';
 	padding-top: 40px;
 	padding-bottom: 20px;
 	text-align: left;
@@ -196,7 +196,7 @@ h4 {
 
 p {
 	font-size: 120%;
-	font-family: 'Futura PT light', serif;
+	font-family: 'Courier New';
 	font-weight: 300;
 	width: 90%;
 	padding-bottom:10px;
@@ -215,7 +215,7 @@ p3 {
 
 h5 {
 	font-size: 120%;
-	font-family: 'Futura PT light', serif;
+	font-family: 'Courier New';
 	font-weight: 600;
 	width: 90%;
 	padding-bottom:10px;
