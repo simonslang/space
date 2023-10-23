@@ -36,7 +36,6 @@ body {
 }
 
 .container {
-    max-width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +194,7 @@ h4 {
 }
 
 p {
-	font-size: 120%;
+	font-size: 100%;
 	font-family: 'Courier New';
 	font-weight: 300;
 	width: 90%;
@@ -261,10 +260,13 @@ h7 {
 }
 
 .text{
+	max-width: 1024px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 90%;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .text p {
