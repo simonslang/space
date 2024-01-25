@@ -30,7 +30,7 @@
 }
 
 body {
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 55);
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
@@ -52,7 +52,7 @@ a {
 
 header {
 	padding-top: 20px;
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255, 0));
 }
 
 .name {
@@ -106,8 +106,8 @@ h2{
 	margin-top: 50px;
 }
 h3{
-	font-size: 75%;
-	font-family: 'Courier New';
+	font-size: 90%;
+	font-family: 'Inconsolata';
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -119,20 +119,21 @@ h3{
 
 h4 {
 	font-size: 200%;
-	font-family: 'Courier New';
+	font-family: 'Inconsolata';
 	padding-top: 40px;
 	padding-bottom: 20px;
 }
 
 p {
 	font-size: 100%;
-	font-family: 'Courier New';
+	font-family: 'Inconsolata';
+	font-weight: 100;
 	padding-bottom:10px;
     padding-top: 10px;
 }
 p2 {
 	font-size: 120%;
-	font-family: 'Courier New';
+	font-family: 'Inconsolata';
 	text-align: left;
 	padding-left: 3%;
 	padding-bottom:10px;
@@ -155,7 +156,7 @@ p3 {
 
 h5 {
 	font-size: 120%;
-	font-family: 'Courier New';
+	font-family: 'Inconsolata';
 	font-weight: 600;
 	width: 90%;
 	padding-bottom:10px;
