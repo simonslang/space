@@ -68,10 +68,10 @@ nav {
 }
 
 .navbutton{
-	text-align: center;
+	text-align:center;
 	width: 100%;
     font-family: 'Sporting_Grotesque_Bold';
-	font-size: 70%;
+	font-size: 80%;
 	background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     border-style: solid;
@@ -220,11 +220,11 @@ h1 {
 	color: black
 }
 .projects h1 {
-	font-size: 90%;
+	font-size: 120%;
 	color: white;
 }
 h2{
-	font-size: 90%;
+	font-size: 110%;
 	font-family: 'Sporting_Grotesque_Regular';
 	font-style: italic;
 	background-color: black;
