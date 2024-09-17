@@ -38,6 +38,7 @@ body {
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 	max-height: 100vh;
+	overflow: hidden;
 }
 
 .container {
@@ -46,8 +47,6 @@ body {
 	width: 100%;
     margin-left: auto;
     margin-right: auto;
-	position: relative;
-	overflow-y: hidden;
 }
 
 .name {
@@ -59,11 +58,6 @@ body {
 .name img {
 	max-height: 100%;
 	width: auto;
-}
-
-.header{
-	width: 100%;
-	height: auto;
 }
 
 .nav {
@@ -91,11 +85,16 @@ nav {
 	padding-top: 10px;
 }
 
+.content {
+	max-height: 100vh;
+	overflow-y: scroll;
+}
+
 .projects {
 	display: flex;
 	flex: 1,1,1;
 	flex-direction: row;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
@@ -233,6 +232,7 @@ nav {
 }
 
 h1 {
+	display: flex;
 	font-size: 160%;
 	color: rgb(214, 255, 58);
 }
@@ -261,8 +261,6 @@ h3{
 }
 .header h3 {
 	color: rgb(255, 255, 255);
-	
-
 }
 h4 {
 	font-size: 200%;

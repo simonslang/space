@@ -90,6 +90,10 @@ nav {
 	padding: 5px;
 	padding-top: 10px;
 }
+.content {
+	max-height: 100vh;
+	overflow-y: scroll;
+}
 
 .projects {
 	display: flex;
