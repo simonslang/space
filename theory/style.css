@@ -37,7 +37,7 @@ body {
 	background-color: rgb(0, 0, 0);
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
-	max-height: 100vh;
+	overflow: hidden;
 }
 
 .container {
@@ -46,8 +46,11 @@ body {
 	width: 100%;
     margin-left: auto;
     margin-right: auto;
-	position: relative;
-	overflow-y: hidden;
+}
+
+header {
+	display: flex;
+	overflow-x: scroll;
 }
 
 .name {
@@ -60,10 +63,8 @@ body {
 	max-height: 100%;
 	width: auto;
 }
-
-.header{
-	width: 100%;
-	height: auto;
+.name .card1 {
+	min-width: 70%;
 }
 
 .nav {
@@ -90,6 +91,7 @@ nav {
 	padding: 5px;
 	padding-top: 10px;
 }
+
 .content {
 	max-height: 100vh;
 	overflow-y: scroll;
@@ -99,9 +101,9 @@ nav {
 	display: flex;
 	flex: 1,1,1;
 	flex-direction: row;
-	flex-wrap:wrap;
+	flex-wrap: nowrap;
 	max-height: 100vh;
-	overflow-y: scroll;
+	overflow: scroll;
 }
 
 .art {
@@ -237,6 +239,7 @@ nav {
 }
 
 h1 {
+	display: flex;
 	font-size: 160%;
 	color: rgb(214, 255, 58);
 }
@@ -265,8 +268,6 @@ h3{
 }
 .header h3 {
 	color: rgb(255, 255, 255);
-	
-
 }
 h4 {
 	font-size: 200%;
