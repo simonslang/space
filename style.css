@@ -52,7 +52,7 @@ header {
 	align-items: center;
 	width: 100%;
 	padding-top: 20px;
-	background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+	background-color: rgb(48, 48, 48);
 }
 
 .nav {
@@ -216,12 +216,12 @@ nav {
 }
 
 h1 {
-	font-size: 235%;
-	color: rgb(0, 0, 0);
+	font-size: 160%;
+	color: rgb(214, 255, 58);
 }
 .projects h1 {
 	font-size: 120%;
-	color: rgb(222, 255, 50);
+	color: rgb(214, 255, 58);
 }
 h2{
 	font-size: 110%;
@@ -236,13 +236,13 @@ h2{
 	margin-top: 50px;
 }
 h3{
-	font-size: 112%;
+	font-size: 77%;
 	font-family: 'Inconsolata';
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 .header h3 {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	
 
 }
