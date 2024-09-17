@@ -52,11 +52,7 @@ header {
 	align-items: center;
 	width: 100%;
 	padding-top: 20px;
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
-}
-
-.name {
-	display: flex;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
 }
 
 .nav {
@@ -75,7 +71,7 @@ nav {
 	text-align: center;
 	width: 100%;
     font-family: 'Sporting_Grotesque_Bold';
-	font-size: 80%;
+	font-size: 70%;
 	background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     border-style: solid;
@@ -150,11 +146,11 @@ h1 {
 	color: black
 }
 .projects h1 {
-	font-size: 100%;
+	font-size: 90%;
 	color: white;
 }
 h2{
-	font-size: 100%;
+	font-size: 90%;
 	font-family: 'Sporting_Grotesque_Regular';
 	font-style: italic;
 	background-color: black;
