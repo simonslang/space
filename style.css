@@ -37,7 +37,6 @@ body {
 	background-color: rgb(0, 0, 0);
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
-	max-height: 100vh;
 	overflow: hidden;
 }
 
@@ -47,6 +46,10 @@ body {
 	width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+
+header {
+	display: flex;
 }
 
 .name {
@@ -94,9 +97,9 @@ nav {
 	display: flex;
 	flex: 1,1,1;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	max-height: 100vh;
-	overflow-y: scroll;
+	overflow: scroll;
 }
 
 .art {
