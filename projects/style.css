@@ -52,7 +52,7 @@ header {
 	align-items: center;
 	width: 100%;
 	padding-top: 20px;
-	background-image: linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
 }
 
 .nav {
@@ -73,7 +73,7 @@ nav {
     font-family: 'Sporting_Grotesque_Bold';
 	font-size: 80%;
 	background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-style: solid;
     border-width: 0px;
 	padding: 5px;
@@ -112,97 +112,97 @@ nav {
 .card1 {
 	display: flex;
 	align-items: center;
-	background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+	background-color: black;
 	width: 100%;
 	height: 80px;
 }
 .card2 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/rayarray2.jpg);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/rayarray2.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card3 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/rayarray1.jpg);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/rayarray1.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card4 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/sessel1.png);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/sessel1.png);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card5 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/kleidung3.png);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/kleidung3.png);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card6 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/alloys2.PNG);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/alloys2.PNG);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card7 {
 	background-position:center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255)), url(projects/img/Ballerrahmen2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/Ballerrahmen2.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card8 {
 	background-position:center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255)), url(projects/img/Ballerrahmen.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/Ballerrahmen.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card9 {
 	background-position:center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255)), url(projects/img/disco.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/disco.png);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card10 {
 	background-position:center;
-	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(255, 255, 255)), url(projects/img/monitore.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/monitore.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card11 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/irgendwo.png);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/irgendwo.png);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card12 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/Fusion.jpg);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/Fusion.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card13 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/Buch.jpg);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/Buch.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
 }
 .card14 {
 	background-position:center;
-	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0)), url(projects/img/radioangrezi.PNG);
+	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/radioangrezi.PNG);
 	background-size: cover;
 	width: 100%;
 	height: 300px;
@@ -217,18 +217,18 @@ nav {
 
 h1 {
 	font-size: 235%;
-	color: black
+	color: rgb(0, 0, 0);
 }
 .projects h1 {
 	font-size: 120%;
-	color: white;
+	color: rgb(222, 255, 50);
 }
 h2{
 	font-size: 110%;
 	font-family: 'Sporting_Grotesque_Regular';
 	font-style: italic;
 	background-color: black;
-	color: white;
+	color: rgb(255, 255, 255);
     display: inline-block;
     border-style: solid;
     border-width: 0px;
