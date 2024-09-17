@@ -30,73 +30,133 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 	background-color: rgb(0, 0, 0);
 	font-family: 'Sporting_Grotesque_Bold';
 	color: white;
 }
 
 .container {
-    min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-a {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-}
-.cards a {
-	color: white;
-}
-
-
 header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 	padding-top: 20px;
-	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255, 0));
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
 }
 
 .name {
 	display: flex;
-	text-align: center;
-	justify-content: center;
-
 }
 
 .nav {
-	width: 100%;
-	margin-top: 10px;
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	padding-bottom: 30px;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	width: 100%;
+
+}
+nav {
+	display: flex;
+	width: 100%;
 }
 
 .navbutton{
+	text-align: center;
+	width: 100%;
     font-family: 'Sporting_Grotesque_Bold';
 	font-size: 80%;
-	background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    display: inline-block;
+	background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 0px;
 	padding: 5px;
-	padding-right: 200px;
 	padding-top: 10px;
-	align-self: center;
-}
-.navbutton a {
-	color: rgb(255, 255, 255);
 }
 
+.projects {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+}
+
+.art {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.design {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.collective {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+
+.card1 {
+	display: flex;
+	align-items: center;
+	background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+	width: 100%;
+	height: 80px;
+}
+.card2 {
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+	width: 100%;
+	height: 300px;
+}
+.card3 {
+	background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+	width: 100%;
+	height: 300px;
+}
+.card4 {
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+	width: 100%;
+	height: 300px;
+}
+.card5 {
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 255, 0));
+	width: 100%;
+	height: 300px;
+}
+.card6 {
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 255, 0, 0));
+	width: 100%;
+	height: 300px;
+}
+.card7 {
+	background-image: linear-gradient(rgb(255, 255, 255),rgb(204, 255, 0, 0));
+	width: 100%;
+	height: 300px;
+}
 
 h1 {
 	font-size: 235%;
-	color: black;
+	color: black
 }
-
+.projects h1 {
+	font-size: 100%;
+	color: white;
+}
 h2{
-	font-size: 200%;
-	font-family: 'Courier New';
+	font-size: 100%;
+	font-family: 'Sporting_Grotesque_Regular';
+	font-style: italic;
 	background-color: black;
 	color: white;
     display: inline-block;
@@ -111,49 +171,19 @@ h3{
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
-
 .header h3 {
 	color: rgb(0, 0, 0);
+	
 
 }
-
 h4 {
 	font-size: 200%;
 	font-family: 'Inconsolata';
+	font-weight: 400;
 	padding-top: 40px;
 	padding-bottom: 20px;
-}
-
-p {
-	font-size: 100%;
-	font-family: 'Inconsolata';
-	font-weight: 100;
-	padding-bottom:10px;
-    padding-top: 10px;
-}
-p2 {
-	font-size: 120%;
-	font-family: 'Inconsolata';
 	text-align: left;
-	padding-left: 3%;
-	padding-bottom:10px;
-    padding-top: 10px;
 }
-
-p3 {
-	font-size: 120%;
-	font-family: 'MetamorBit_TrialVF', serif;
-	font-weight: 300;
-	width: 90%;
-	padding-bottom:10px;
-    padding-top: 10px;
-	border-style: solid;
-	border-color: cyan;
-	border-width: 1px;
-	margin: 2px;
-	padding: 5px;
-}
-
 h5 {
 	font-size: 120%;
 	font-family: 'Inconsolata';
@@ -162,7 +192,6 @@ h5 {
 	padding-bottom:10px;
     padding-top: 10px;
 }
-
 h6 {
 	font-size: 100%;
 	font-family: 'MetamorBit_TrialVF', serif;
@@ -170,7 +199,6 @@ h6 {
 	padding-bottom: 20px;
 	text-align: left;
 }
-
 h7 {
 	font-size: 80%;
 	font-family: 'MetamorBit_TrialVF', serif;
@@ -181,27 +209,44 @@ h7 {
 	color: rgb(214, 255, 58);
 }
 
-.content {
-	max-width: 1024px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-	margin-left: auto;
-    margin-right: auto;
+p {
+	font-size: 100%;
+	font-family: 'Inconsolata';
+	font-weight: 100;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+p3 {
+	font-size: 120%;
+	font-family: 'MetamorBit_TrialVF', serif;
+	font-weight: 300;
+	width: 90%;
+	padding-bottom:10px;
+    padding-top: 10px;
+}
+.text p {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.projects p {
+	background-color: black;
+	padding: 5px
 }
 
-.text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
+a {
+    text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.text a{
+	color: rgb(255, 0, 0);
+}
+.navbutton a {
+	color: rgb(0, 0, 0);
 }
 
 .img{
-    width: 90%;
+    width: 100%;
 }
 
 img{
@@ -212,11 +257,11 @@ img{
 }
 
 .navbutton:hover {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(168, 168, 168);
     transition-duration: 0.3s;
 }
 
 .button:hover {
-	background-color: rgb(255, 0, 0);
+	background-color: rgb(171, 171, 171);
     transition-duration: 0.3s;
 }
