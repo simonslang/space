@@ -66,6 +66,9 @@ header {
 .name .card1 {
 	min-width: 70%;
 }
+.card1 h1 {
+	padding-top: 5px;
+}
 
 .nav {
 	display: flex;
@@ -257,7 +260,9 @@ h2{
     display: inline-block;
     border-style: solid;
     border-width: 0px;
-    padding: 7px;
+    padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px;
 	margin-top: 50px;
 }
 h3{
@@ -324,7 +329,9 @@ p3 {
 }
 .projects p {
 	background-color: black;
-	padding: 5px
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
 }
 
 a {
