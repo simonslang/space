@@ -117,7 +117,7 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
-	min-width: 400px;
+	min-width: 380px;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
@@ -126,7 +126,7 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
-	min-width: 400px;
+	min-width: 380px;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
@@ -135,10 +135,19 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
+	min-width: 380px;
+	max-height:100vh;
+	overflow-y: scroll;
+}
+.theory {
+	flex: 1;
+	flex-direction: column;
+	width: 100%;
 	min-width: 400px;
 	max-height:100vh;
 	overflow-y: scroll;
 }
+
 
 
 .card1 {
