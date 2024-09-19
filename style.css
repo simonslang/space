@@ -115,27 +115,27 @@ nav {
 .art {
 	flex: 1;
 	flex-direction: column;
+	max-width: 90vw;
 	width: 100%;
 	min-width: 400px;
-	max-width: 90vh;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
 .design {
 	flex: 1;
 	flex-direction: column;
+	max-width: 90vw;
 	width: 100%;
 	min-width: 400px;
-	max-width: 90vh;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
 .collective {
 	flex: 1;
 	flex-direction: column;
+	max-width: 90vw;
 	width: 100%;
 	min-width: 400px;
-	max-width: 90vh;
 	max-height:100vh;
 	overflow-y: scroll;
 }
