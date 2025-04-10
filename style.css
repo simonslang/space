@@ -117,7 +117,7 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
-	min-width: 380px;
+	min-width: 300px;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
@@ -126,7 +126,7 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
-	min-width: 380px;
+	min-width: 300px;
 	max-height: 100vh;
 	overflow-y: scroll;
 }
@@ -135,7 +135,7 @@ nav {
 	flex-direction: column;
 	max-width: 90vw;
 	width: 100%;
-	min-width: 380px;
+	min-width: 300px;
 	max-height:100vh;
 	overflow-y: scroll;
 }
@@ -143,7 +143,7 @@ nav {
 	flex: 1;
 	flex-direction: column;
 	width: 100%;
-	min-width: 400px;
+	min-width: 300px;
 	max-height:100vh;
 	overflow-y: scroll;
 }
@@ -162,112 +162,112 @@ nav {
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/rayarray2.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card3 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/rayarray1.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card4 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/sessel1.png);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card5 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/kleidung3.png);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card6 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/alloys2.PNG);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card7 {
 	background-position:center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/Ballerrahmen2.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card8 {
 	background-position:center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/Ballerrahmen.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card9 {
 	background-position:center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/disco.png);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card10 {
 	background-position:center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/monitore.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card11 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/irgendwo.png);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card12 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/Fusion.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card13 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/Buch.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card14 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/radioangrezi.PNG);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;v
 }
 .card15 {
 	background-position:center;
 	background-image: linear-gradient(rgb(255, 255, 255),rgba(0, 0, 0, 0));
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card16 {
 	background-position:center;
 	background-image: linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0)), url(projects/img/soundscape2.png);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 .card17 {
 	background-position:center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0),rgb(0, 0, 0)), url(projects/img/aaaa.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 300px;
+	height: 33%;
 }
 
 h1 {
