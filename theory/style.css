@@ -102,12 +102,14 @@ nav {
 	width: 100%;
 	font-family: 'Inconsolata';
 	font-size: 90%;
-	background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-style: solid;
-    border-width: 0px;
-	padding: 5px;
-	padding-top: 5px;
+	border-left: 1px;
+	border-right: 1px;
+	border-width: 1px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .content {
@@ -394,7 +396,7 @@ a {
 	color: rgb(255, 0, 0);
 }
 .navbutton a {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 .img{
@@ -413,8 +415,11 @@ video{
 }
 
 .navbutton:hover {
-    background-color: rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
     transition-duration: 0.3s;
+}
+.navbutton a:hover {
+	color: rgb(255, 0, 0);
 }
 
 .button:hover {
