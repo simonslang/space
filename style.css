@@ -297,6 +297,7 @@ h1 {
 	display: flex;
 	font-size: 160%;
 	color: rgb(255, 255, 255);
+	padding-bottom: 0.5vh;
 }
 .projects h1 {
 	font-family: 'Inconsolata';
@@ -370,6 +371,14 @@ p {
 	padding-bottom: 10px;
     padding-top: 10px;
 }
+p2 {
+	font-size: 100%;
+	font-family: 'Inconsolata';
+	font-weight: 100;
+	padding-bottom: 10px;
+    padding-top: 10px;
+
+}
 p3 {
 	font-size: 120%;
 	font-family: 'MetamorBit_TrialVF', serif;
@@ -395,7 +404,7 @@ a {
 	color: rgb(255, 255, 255);
 }
 .text a{
-	color: rgb(255, 0, 0);
+	color: rgb(0, 0, 255);
 }
 .navbutton a {
 	color: rgb(255, 255, 255);
@@ -419,11 +428,11 @@ video{
 }
 
 .navbutton:hover {
-    color: rgb(168, 168, 168);
+	color: rgb(0, 0, 255);
     transition-duration: 0.3s;
 }
 .navbutton a:hover {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 255);
 }
 
 .button:hover {
