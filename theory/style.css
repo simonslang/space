@@ -393,7 +393,7 @@ a {
 	color: rgb(255, 255, 255);
 }
 .text a{
-	color: rgb(0, 0, 255);
+	color: rgb(203, 255, 15);
 }
 .navbutton a {
 	color: rgb(255, 255, 255);
@@ -415,11 +415,11 @@ video{
 }
 
 .navbutton:hover {
-	color: rgb(0, 0, 255);
+	color: rgb(203, 255, 15);
     transition-duration: 0.3s;
 }
 .navbutton a:hover {
-	color: rgb(0, 0, 255);
+	color: rgb(203, 255, 15);
 }
 
 .button:hover {
